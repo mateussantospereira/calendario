@@ -1,0 +1,187 @@
+@import "./global.css";
+
+/* head */
+/*---------------------*/
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: var(--font-standard-size);
+    font-family: var(--font-standard-family);
+    background-color: var(--color-3);
+}
+
+/*---------------------*/
+
+/* header */
+/*---------------------*/
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 60%;
+}
+
+#form {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form label, #form input {
+    margin: 5px;
+}
+
+#form input[type="submit"] {
+    padding: 4px;
+    font-weight: bold;
+    color: var(--color-3);
+    border: solid 1px;
+    border-color: var(--color-1);
+    border-radius: 3px;
+    background-color: var(--color-2);
+} 
+
+#yearChosen {
+    width: 110px;
+}
+
+/*---------------------*/
+
+/* main */
+/*---------------------*/
+
+#error {
+    margin-top: 44px;
+}
+
+#calendar {
+    margin-top: 44px;
+    background-color: var(--color-2);
+    border: solid 1px;
+}
+
+.title {
+    color: var(--color-3);
+}
+
+#ano-romano {
+    display: flex;
+    justify-content: center;
+}
+
+#seculo-romano {
+    display: flex;
+    justify-content: center;
+}
+
+#months {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendar-content {
+    margin: 0px 5px 5px 5px;
+}
+
+#calendar-content div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#month {
+    margin: 5px;
+    border: 1px solid var(--color-1);
+    background-color: var(--color-3);
+}
+
+#month table {
+    margin: 2px;
+    border: 1px solid var(--color-1);
+    background-color: var(--color-3);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid var(--color-1);
+    background-color: var(--color-3);
+}
+
+caption {
+    font-weight: bold;
+    border: solid var(--color-1);
+    border-width: 1px 1px 0px 1px;
+    background-color: var(--color-3);
+
+}
+
+#right div, #left div {
+    margin: auto 5px auto 5px;
+}
+
+#right {   
+    border: solid var(--color-1);
+    border-width: 0px 0px 0px 1px;
+}
+
+#left {
+    border: solid var(--color-1);
+    border-width: 0px 1px 0px 0px
+}
+
+th, td  {
+    border: 1px solid var(--color-1);
+    text-align: center;
+    padding: 5px;
+}
+
+#feriado {
+    color: var(--color-3);
+    background-color: var(--color-5);
+    font-weight: bold;
+}
+
+#domingo {
+    color: var(--color-4); 
+    font-weight: bold;
+}
+
+#holidays {
+    margin-top: 22px;
+}
+
+#holidays p {
+    margin: 0px 0px;
+}
+
+#holidays #b {
+    margin-bottom: 8px;
+}
+
+.info {
+    margin: 0 50vh;
+}
+
+/*---------------------*/
+
+/*---------------------*/
+
+/* footer */
+/*---------------------*/
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 44px;
+    margin-bottom: 22px;
+}
+
+/*---------------------*/

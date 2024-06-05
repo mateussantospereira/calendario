@@ -1,0 +1,10 @@
+:root {
+    --color-1: black;
+    --color-2: #505050;
+    --color-3: #FEFBF4;
+    --color-4: rgb(172, 0, 0);
+    --color-5: rgb(187, 53, 53);
+
+    --font-standard-family: serif;
+    --font-standard-size: 18px;
+}
