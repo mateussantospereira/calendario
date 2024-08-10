@@ -1,0 +1,12 @@
+:root {
+    --color-main-1: #FEFBF4;
+
+    --color-red-1: rgb(172, 0, 0);
+    --color-red-2: rgb(187, 53, 53);
+
+    --color-gray-1: #505050;
+    --color-gray-2: #606060;
+
+    --font-standard-family: serif;
+    --font-standard-size: 18px;
+}

@@ -1,0 +1,23 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: var(--font-standard-size);
+    font-family: var(--font-standard-family);
+    background-color: var(--color-main-1);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-red-1);
+}
+
+hr {
+    width: 60%;
+}

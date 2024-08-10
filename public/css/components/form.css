@@ -1,0 +1,28 @@
+#form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 22px 0px;
+}
+
+#form div {
+    margin: 0 5px;
+}
+
+#form input[type="submit"] {
+    padding: 4px;
+    font-weight: bold;
+    color: var(--color-main-1);
+    border: solid 1px;
+    border-color: black;
+    border-radius: 2px;
+    background-color: var(--color-gray-1);
+}
+
+#form input[type="submit"]:hover {
+    background-color: var(--color-gray-2);
+}
+
+#yearChosen {
+    width: 110px;
+}

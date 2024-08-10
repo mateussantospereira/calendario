@@ -1,0 +1,91 @@
+#calendar {
+    margin: 22px 0px;
+    background-color: var(--color-gray-1);
+    border: solid 1px;
+}
+
+.title {
+    color: var(--color-main-1);
+}
+
+#ano-romano {
+    display: flex;
+    justify-content: center;
+}
+
+#seculo-romano {
+    display: flex;
+    justify-content: center;
+}
+
+#months {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendar-content {
+    margin: 0px 5px 5px 5px;
+}
+
+#calendar-content div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#month {
+    margin: 5px;
+    border: 1px solid black;
+    background-color: var(--color-main-1);
+}
+
+#month table {
+    margin: 2px;
+    border: 1px solid black;
+    background-color: var(--color-main-1);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    background-color: var(--color-main-1);
+}
+
+caption {
+    font-weight: bold;
+    border: solid black;
+    border-width: 1px 1px 0px 1px;
+    background-color: var(--color-main-1);
+
+}
+
+#right div, #left div {
+    margin: auto 5px auto 5px;
+}
+
+#right {   
+    border: solid black;
+    border-width: 0px 0px 0px 1px;
+}
+
+#left {
+    border: solid black;
+    border-width: 0px 1px 0px 0px
+}
+
+th, td  {
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+#feriado {
+    color: var(--color-main-1);
+    background-color: var(--color-red-2);
+    font-weight: bold;
+}
+
+#domingo {
+    color: var(--color-red-1); 
+    font-weight: bold;
+}
