@@ -1,6 +1,6 @@
 <div class="center"><h2>Calendário Juliano e Gregoriano</h2></div>
 
-<div class="center">27/05/2024</div>
+27/05/2024
 
 Este calendário foi feito com a finalidade de calcular os dias dos anos antigos e atuais. Este calcula desde o ano 1 até, por padão, o ano 5000. Este candário possúi os Annos Domini do calendário Juliano e os do calendário Gregoriano.
 
