@@ -89,3 +89,8 @@ th, td  {
     color: var(--color-red-1); 
     font-weight: bold;
 }
+
+#hoje {
+    background-color: var(--color-yellow-1);
+    font-weight: bold;
+}

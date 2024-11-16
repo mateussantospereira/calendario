@@ -90,6 +90,13 @@ class calendarioController {
                 new holiday("Proclamação da Repúbica", 15, "Novembro", 1889),
                 new holiday("Natal", 25, "Dezembro", 529)
             ];
+	    
+	    let date = new Date();
+	    let today = {
+                day: date.getDate(),
+		month: date.getMonth() + 1,
+		year: date.getFullYear()
+	    };
 
             let easter;
             let goodFridayDay;
@@ -196,6 +203,13 @@ class calendarioController {
                                     content.push(`<td id="domingo">${day}</td>`);
                                 }
                             }
+
+			    let dayToday = today.day == day && today.month == month.number && today.year == year;
+			    
+			    if (dayToday) {
+				content.pop();
+				content.push(`<td id="hoje">${day}</td>`);
+			    }
 
                             if (content.length % 8 == 0 && content.length != 0) {
                                 content.push(`</tr><tr>`);
@@ -723,3 +737,14 @@ form.addEventListener("submit", (event) => {
 
     getCalendar(form.yearChosen.value);
 });
+
+function getToday() {
+    const year = new Date().getFullYear();
+    const yearChosen = document.getElementById("yearChosen");
+    const confirmar = document.getElementById("confirm");
+
+    yearChosen.value = year;
+    confirmar.click();
+}
+
+getToday();
