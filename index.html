@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/style.css">
     <link rel="icon" href="./public/img/gregorian_calendar.jpg">
-    <script src="./src/index.js" defer></script>
     <title>Calendário</title>
 </head>
 
@@ -29,7 +28,7 @@
             </div>
             
             <div>
-                <input type="submit" id="confirm"value="Confirmar">
+                <input type="submit" id="confirm" value="Confirmar">
             </div>
         </form>
 
@@ -37,18 +36,38 @@
             <div id="error" style="display: none;"></div>
         </div>
         
-        <div class="center">
+       <div class="center">
             <div id="conteiner" style="display: none;"></div>
         </div>
     </main>
 
     <footer>
         <div class="center">
-            <p>Calendário | Autor Mateus Pereira | <a href="./info.html">Informações</a>
+            <p>
+                Calendário | Autor Mateus Dos Santos Pereira | <a href="./info.html">Informações</a>
             </p>
         </div>
     </footer>
 
 </body>
+
+<script src="./src/lib/ashWednesday.js"></script>
+<script src="./src/lib/computus.js"></script>
+<script src="./src/lib/corpusChristi.js"></script>
+<script src="./src/lib/goodFriday.js"></script>
+<script src="./src/lib/gregorianEaster.js"></script>
+<script src="./src/lib/romanNumeral.js"></script>
+<script src="./src/helpers/checkInputs.js"></script>
+<script src="./src/helpers/response.js"></script>
+<script src="./src/values/holidays.js"></script>
+<script src="./src/values/months.js"></script>
+<script src="./src/values/today.js"></script>
+<script src="./src/operations/validateInput.js"></script>
+<script src="./src/actions/holidayEaster.js"></script>
+<script src="./src/executors/calculateWeekDay.js"></script>
+<script src="./src/executors/calendarToHTML.js"></script>
+<script src="./src/executors/monthsToHTML.js"></script>
+<script src="./src/core/calendar.js"></script>
+<script src="./src/index.js"></script>
 
 </html>
