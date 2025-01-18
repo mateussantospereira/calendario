@@ -10,6 +10,6 @@ Este é um software de um calendário feito JavaScript. Este utiliza as linguage
 
 A primeira versão deste calendário foi feita na metade do ano de 2023, e terminada em setembro. 
 
-Autor: Mateus dos Santos Pereira.
+Autor: Mateus Dos Santos Pereira.
 
 GITHUB: https://github.com/mateussantospereira
