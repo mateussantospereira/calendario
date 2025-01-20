@@ -94,3 +94,18 @@ th, td  {
     background-color: var(--color-yellow-1);
     font-weight: bold;
 }
+
+
+@media (max-width: 768px) {
+    #calendar {
+        margin: 0 10px;
+    }
+
+    th, td  {
+        padding: 6px;
+    }
+
+    caption, th, td {
+        font-size: 22px;
+    }
+} 

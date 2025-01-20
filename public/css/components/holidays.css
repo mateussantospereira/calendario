@@ -9,3 +9,9 @@
 #holidays #b {
     margin-bottom: 8px;
 }
+
+@media (max-width: 768px) {
+    #holidays {
+        margin: 22px 10px;
+    }
+}

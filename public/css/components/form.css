@@ -2,11 +2,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     margin: 22px 0px;
 }
 
 #form div {
     margin: 0 5px;
+}
+
+#form input {
+    font-size: var(--font-size);
+    font-family: var(--font-family);
 }
 
 #form input[type="submit"] {
@@ -25,4 +31,10 @@
 
 #yearChosen {
     width: 110px;
+}
+
+@media (max-width: 768px) {    
+    #form {
+        padding: 0 10px;
+    }
 }

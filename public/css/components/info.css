@@ -1,3 +1,9 @@
 .info {
-    margin: 0 23vw !important;
+    margin: 0 23vw;
+}
+
+@media (max-width: 768px) {
+    .info {
+        margin: 0 20px !important;
+    }
 }

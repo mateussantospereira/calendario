@@ -2,8 +2,8 @@ body {
     height: 100%;
     width: 100%;
     margin: 0;
-    font-size: var(--font-standard-size);
-    font-family: var(--font-standard-family);
+    font-size: var(--font-size);
+    font-family: var(--font-family);
     background-color: var(--color-main-1);
 }
 
@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 a {

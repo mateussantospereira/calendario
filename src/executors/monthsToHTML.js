@@ -1,7 +1,6 @@
 // Construir os meses em HTML
 
 function monthsToHTML(year, weekDay) {
-    let monthsByLine = 4; // meses em uma linha
     let notDay = `<td></td>`;
     let holidaysHTML = "";
     

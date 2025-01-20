@@ -2,7 +2,7 @@
 
 function calendarToHTML(year, holidaysHTML) {
     let notDay = "<td></td>";
-    let monthsByLine = 4;
+    let monthsByLine = screenSize(); // meses em uma linha
     let century = year % 100 > 0 ?
         ((year - year % 100) / 100) + 1 :
         year / 100;

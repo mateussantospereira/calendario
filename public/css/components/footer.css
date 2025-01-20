@@ -4,3 +4,10 @@ footer {
     align-items: center;
     margin: 22px 0px;
 }
+
+
+@media (max-width: 768px) {
+    footer {
+        margin: 22px 10px;
+    }
+}
