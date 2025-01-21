@@ -1,3 +1,15 @@
 #error {
     margin: 22px 0px;
 }
+
+#error404 {
+    margin: 0;
+    font-size: 30vh;
+}
+
+@media (max-width: 768px) {
+    #error404 {
+        margin: 0;
+        font-size: 150px;
+    }   
+}
