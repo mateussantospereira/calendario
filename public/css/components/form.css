@@ -58,10 +58,13 @@
 
 @media (max-width: 768px) {    
     #form {
-        padding: 0 10px;
+        padding: 0 10px !important;
         justify-content: space-between;
     }
 
+    #form div {
+        margin: 0 !important;
+    }
 
     #form input[type="number"] {
         margin: 0 20px;
