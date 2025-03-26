@@ -29,7 +29,7 @@ function monthsToHTML(year, weekDay) {
 
         for (let day = 1; day <= month.days; day++) {
             let param = `'${month.number}-${day}'`;
-            let func = `onclick="printDay(${param})"`
+            let func = `onclick="buttonDay(${param})"`
             let buttonDay = `<button ${func}>${day}</button>`;
             let tdDay = `<td id="dia">${buttonDay}</td>`;
             let tdHoliday = `<td id="feriado">${buttonDay}</td>`;

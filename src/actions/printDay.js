@@ -12,7 +12,6 @@ function printDay(dayText) {
     }
 
     dayHTML.innerHTML = text;
-    console.log(text)
 }
 
 window.printDay = printDay;

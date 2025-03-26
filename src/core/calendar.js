@@ -12,7 +12,11 @@ function calendar(reqYear) {
     let holidaysHTML = monthsToHTML(year, weekDay);
     let calendarHTML = calendarToHTML(year, holidaysHTML);
     
-    printDay(`${today.month}-${today.day}`)
+    if (today.year == year) {
+        printDay(`${today.month}-${today.day}`);
+    } else {
+        printDay("1-1");
+    }
 
     return response(200, false, "Calendário calculado com êxito.", calendarHTML);
 }
