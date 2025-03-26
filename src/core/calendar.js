@@ -12,6 +12,8 @@ function calendar(reqYear) {
     let holidaysHTML = monthsToHTML(year, weekDay);
     let calendarHTML = calendarToHTML(year, holidaysHTML);
     
+    printDay(`${today.month}-${today.day}`)
+
     return response(200, false, "Calendário calculado com êxito.", calendarHTML);
 }
 

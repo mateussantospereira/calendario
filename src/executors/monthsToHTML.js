@@ -28,6 +28,18 @@ function monthsToHTML(year, weekDay) {
         }
 
         for (let day = 1; day <= month.days; day++) {
+            let param = `'${month.number}-${day}'`;
+            let func = `onclick="printDay(${param})"`
+            let buttonDay = `<button ${func}>${day}</button>`;
+            let tdDay = `<td id="dia">${buttonDay}</td>`;
+            let tdHoliday = `<td id="feriado">${buttonDay}</td>`;
+            let tdSunday = `<td id="domingo">${buttonDay}</td>`;
+            let tdToday = `<td id="hoje">${buttonDay}</td>`; 
+
+            daysValues[month.number][day] = {};
+            daysValues[month.number][day].title =
+                `<h3>${week[weekDay].name}, dia ${day} de ${month.name} de ${year}</h3>`;
+
             let holiday = holidays.find(
                 h => 
                 h.day === day &&
@@ -35,15 +47,13 @@ function monthsToHTML(year, weekDay) {
                 h.first <= year
             );
 
-            let tdDay = `<td>${day}</td>`;
-            let tdHoliday = `<td id="feriado">${day}</td>`;
-            let tdSunday = `<td id="domingo">${day}</td>`;
-            let tdToday = `<td id="hoje">${day}</td>`; 
-
             if (holiday) {
                 holidaysHTML = holidaysHTML +
                 `<p>${holiday.name}, ${day} de ${holiday.month}.</p>`;
-                
+
+                daysValues[month.number][day].holiday =
+                    `<h2>${holiday.name}</h2>`;
+
                 content.push(tdHoliday);
             } else {
                 content.push(tdDay);

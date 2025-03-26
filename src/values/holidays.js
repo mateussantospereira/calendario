@@ -9,7 +9,7 @@ class holiday {
 
 function standardHolidays() {
     return [
-        new holiday("Nossa Senhora Mãe de Deus", 1, "Janeiro", 432),
+        new holiday("Santa Maria, Mãe de Deus", 1, "Janeiro", 432),
         new holiday("Tiradentes", 21, "Abril", 1889),
         new holiday("Dia do Trabalho", 1, "Maio", 1924),
         new holiday("Independência do Brasil", 7, "Setembro", 1948),
